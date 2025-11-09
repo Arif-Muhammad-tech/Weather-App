@@ -53,3 +53,111 @@
 .details p {
   margin: 5px 0;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.weather-card {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: scale(1.03);
+}
+
+.app-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 15px;
+  backdrop-filter: blur(6px);
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: #61dafb;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background: #4ec0e9;
+}
+
+.weather-info {
+  margin-top: 15px;
+}
+
+.city {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.condition {
+  color: #cfcfcf;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #ffeb3b;
+}
+
+.wind {
+  font-size: 15px;
+  color: #d1d5db;
+}
+.weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
