@@ -6,6 +6,7 @@ import rainBg from "../images/rainy.gif";
 import cloudyBg from "../images/fog.gif";
 import mistBg from "../images/fog.gif";
 import snowBg from "../images/snow.gif";
+import bg from "../images/bg.jpeg";
 
 function Whether() {
   const [city, setCity] = useState("");
@@ -31,7 +32,7 @@ function Whether() {
   };
 
   const getBackground = () => {
-    if (!weather) return sunnyBg;
+    if (!weather) return bg;
     const lower = weather.toLowerCase();
     if (lower.includes("sunny") || lower.includes("clear")) return sunnyBg;
     if (lower.includes("rain")) return rainBg;
