@@ -53,7 +53,7 @@ function Whether() {
       }}
     >
       <div className="weather-card">
-        <h2 className="app-title">☀️ Weather App</h2>
+        <h2 className="app-title">☀️ WeatherNow</h2>
 
         <div className="search-box">
           <input
@@ -74,6 +74,9 @@ function Whether() {
           </div>
         )}
       </div>
+      <footer className="footer">
+        <p>© 2025 WeatherNow | Developed by Arif Muhammad F</p>
+      </footer>
     </div>
   );
 }

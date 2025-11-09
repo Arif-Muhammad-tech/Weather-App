@@ -161,3 +161,20 @@
   transition: background-image 1s ease-in-out, background 1s ease-in-out;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer p {
+  margin: 0;
+}
